@@ -14,7 +14,7 @@ def predict():
     '''
     For rendering results on HTML GUI
     '''
-    #exp = float(request.form['Experience'])
+    exp = float(request.form['Experience'])
     #prediction = finalmodel.predict(exp)
 
     
