@@ -19,7 +19,7 @@ def predict():
 
     
 
-    return render_template('index.html', prediction_text='Expected Salary is  $ {}'.format(prediction[0]))
+    return render_template('index.html', prediction_text='Expected Salary is  $ {}'.format(prediction[0][0]))
 
 
 if __name__ == "__main__":
