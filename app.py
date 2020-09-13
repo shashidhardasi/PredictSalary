@@ -15,11 +15,11 @@ def predict():
     For rendering results on HTML GUI
     '''
     exp = float(request.form['Experience'])
-    prediction = finalmodel.predict(np.array(exp))
+    #prediction = finalmodel.predict(np.array(exp))
 
     
 
-    return render_template('index.html', prediction_text='Expected Salary is  $ {}'.format(exp))
+    return render_template('index.html', prediction_text='Expected Salary is  $ {}'.format(exp*10))
 
 
 if __name__ == "__main__":
